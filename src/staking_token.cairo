@@ -5,8 +5,8 @@ from starkware.cairo.common.uint256 import Uint256
 from starkware.cairo.common.bool import TRUE
 from starkware.starknet.common.syscalls import get_caller_address
 
-from openzeppelin.token.erc20.library import ERC20
-from openzeppelin.access.ownable.library import Ownable
+from lib.cairo_contracts.src.openzeppelin.token.erc20.library import ERC20
+from lib.cairo_contracts.src.openzeppelin.access.ownable.library import Ownable
 
 // Deploy transaction was sent.
 // Contract address: 0x02592f932307abf4f1cc422cb43618645e1a97f7ffa7a4c6a9c04ad029654237

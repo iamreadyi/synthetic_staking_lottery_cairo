@@ -3,8 +3,8 @@
 // use squared balance if you can guarantee sybil resistance
 from src.interfaces.i_token import IToken
 from src.interfaces.i_staking import IStaking
-from openzeppelin.access.ownable.library import Ownable
-from openzeppelin.security.pausable.library import Pausable
+from lib.cairo_contracts.src.openzeppelin.access.ownable.library import Ownable
+from lib.cairo_contracts.src.openzeppelin.security.pausable.library import Pausable
 
 from starkware.cairo.common.alloc import alloc
 from starkware.starknet.common.messages import send_message_to_l1
